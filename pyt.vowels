@@ -1,0 +1,122 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO51YCZ5jjhcfjLZX5XFfPz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/Sample/blob/main/pyt.vowels\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# program to count vowels in a string"
+      ],
+      "metadata": {
+        "id": "kVJzWadfSkj6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "mIRuAj6MO8RO",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1f9de1a5-b470-473c-e6e0-9e4e90076e5c"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter a string: OSHIM\n"
+          ]
+        }
+      ],
+      "source": [
+        "text = input(\"Enter a string: \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "count = 0"
+      ],
+      "metadata": {
+        "id": "kS1o4gptO-uS"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Vowels = \"aeiouAEIOU\""
+      ],
+      "metadata": {
+        "id": "egwIhF-7PrvA"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for char in text:\n",
+        "  if char in Vowels:\n",
+        "    count += 1"
+      ],
+      "metadata": {
+        "id": "vzQ4GcfHRN9a"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Number of Vowels:\", count)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EMIB0ijrULaG",
+        "outputId": "e9599ac9-0c31-4574-a5a3-1e7c73cbce5e"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Number of Vowels: 2\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
