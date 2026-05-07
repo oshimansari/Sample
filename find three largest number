@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOsHmGkT8y6D0GoQfPpfmjh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/Sample/blob/main/find%20three%20largest%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "bdW3ZsdiuOh7"
+      },
+      "outputs": [],
+      "source": [
+        "# find the largest of three numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Enter the first number: \"))\n",
+        "b = int(input(\"Enter the second number: \"))\n",
+        "c = int(input(\"Enter the third number: \"))\n",
+        "if a >= b and a >= c:\n",
+        "  print(\"Largest number is:\", a)\n",
+        "elif b >= a and b >= c:\n",
+        "  print(\"Largest number is:\", b)\n",
+        "else:\n",
+        "  print(\"Largest number is:\", c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Wcrly5v0u_8o",
+        "outputId": "436b0605-384c-4f83-da24-0d21f7f75ef3"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number: 12\n",
+            "Enter the second number: 34\n",
+            "Enter the third number: 56\n",
+            "Largest number is: 56\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
